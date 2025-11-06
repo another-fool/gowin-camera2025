@@ -1,0 +1,398 @@
+[
+ {
+  "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/video_fifo.v",
+  "InstLine" : 825,
+  "InstName" : "video_fifo",
+  "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/video_fifo.v",
+  "ModuleLine" : 825,
+  "ModuleName" : "video_fifo",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/video_fifo.v",
+    "InstLine" : 850,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/video_fifo.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~fifo.video_fifo"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/syn_gen.v",
+  "InstLine" : 13,
+  "InstName" : "syn_gen",
+  "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/syn_gen.v",
+  "ModuleLine" : 13,
+  "ModuleName" : "syn_gen"
+ },
+ {
+  "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/testpattern.v",
+  "InstLine" : 17,
+  "InstName" : "testpattern",
+  "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/testpattern.v",
+  "ModuleLine" : 17,
+  "ModuleName" : "testpattern"
+ },
+ {
+  "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 106,
+    "InstName" : "Gowin_PLL_m0",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/gowin_pll/gowin_pll_400M.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 118,
+    "InstName" : "mux_top_inst",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mux_top.vhd",
+    "ModuleLine" : 7,
+    "ModuleName" : "mux_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mux_top.vhd",
+      "InstLine" : 140,
+      "InstName" : "sensor_top_inst",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/sensor_top.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "sensor_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/sensor_top.vhd",
+        "InstLine" : 52,
+        "InstName" : "i2c_config_top_inst",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/i2c_config_top.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "i2c_config_top",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/i2c_config_top.v",
+          "InstLine" : 59,
+          "InstName" : "lut_ov5640_rgb565_m0",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/lut_ov5640_rgb565_1280_720.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "lut_ov5640_rgb565"
+         },
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/i2c_config_top.v",
+          "InstLine" : 64,
+          "InstName" : "i2c_config_m0",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_config.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "i2c_config",
+          "SubInsts" : [
+           {
+            "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_config.v",
+            "InstLine" : 101,
+            "InstName" : "i2c_master_top_m0",
+            "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_top.v",
+            "ModuleLine" : 1,
+            "ModuleName" : "i2c_master_top",
+            "SubInsts" : [
+             {
+              "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_top.v",
+              "InstLine" : 232,
+              "InstName" : "byte_controller",
+              "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_byte_ctrl.v",
+              "ModuleLine" : 75,
+              "ModuleName" : "i2c_master_byte_ctrl",
+              "SubInsts" : [
+               {
+                "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_byte_ctrl.v",
+                "InstLine" : 146,
+                "InstName" : "bit_controller",
+                "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_bit_ctrl.v",
+                "ModuleLine" : 143,
+                "ModuleName" : "i2c_master_bit_ctrl"
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/sensor_top.vhd",
+        "InstLine" : 58,
+        "InstName" : "ov5640_ctl_0",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+        "ModuleLine" : 5,
+        "ModuleName" : "ov5640_ctl",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+          "InstLine" : 77,
+          "InstName" : "cmos_8_16bit_inst",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/cmos_8_16bit.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "cmos_8_16bit"
+         },
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+          "InstLine" : 88,
+          "InstName" : "sensor_wr_buffer",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+          "ModuleLine" : 933,
+          "ModuleName" : "fifo_16x8192_256x512",
+          "SubInsts" : [
+           {
+            "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+            "InstLine" : 978,
+            "InstName" : "fifo_inst",
+            "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+            "ModuleLine" : 1,
+            "ModuleName" : "\\~fifo.fifo_16x8192_256x512\\"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/sensor_top.vhd",
+        "InstLine" : 72,
+        "InstName" : "ov5640_ctl_1",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+        "ModuleLine" : 5,
+        "ModuleName" : "ov5640_ctl",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+          "InstLine" : 77,
+          "InstName" : "cmos_8_16bit_inst",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/cmos_8_16bit.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "cmos_8_16bit"
+         },
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+          "InstLine" : 88,
+          "InstName" : "sensor_wr_buffer",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+          "ModuleLine" : 933,
+          "ModuleName" : "fifo_16x8192_256x512",
+          "SubInsts" : [
+           {
+            "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+            "InstLine" : 978,
+            "InstName" : "fifo_inst",
+            "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+            "ModuleLine" : 1,
+            "ModuleName" : "\\~fifo.fifo_16x8192_256x512\\"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/sensor_top.vhd",
+        "InstLine" : 86,
+        "InstName" : "ov5640_ctl_2",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+        "ModuleLine" : 5,
+        "ModuleName" : "ov5640_ctl",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+          "InstLine" : 77,
+          "InstName" : "cmos_8_16bit_inst",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/cmos_8_16bit.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "cmos_8_16bit"
+         },
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+          "InstLine" : 88,
+          "InstName" : "sensor_wr_buffer",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+          "ModuleLine" : 933,
+          "ModuleName" : "fifo_16x8192_256x512",
+          "SubInsts" : [
+           {
+            "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+            "InstLine" : 978,
+            "InstName" : "fifo_inst",
+            "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+            "ModuleLine" : 1,
+            "ModuleName" : "\\~fifo.fifo_16x8192_256x512\\"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mux_top.vhd",
+      "InstLine" : 168,
+      "InstName" : "algorithm_top_inst",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/algorithm_top.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "algorithm_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/algorithm_top.vhd",
+        "InstLine" : 345,
+        "InstName" : "buffer_line",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/gowin_sdpb/ram_256X128.vhd",
+        "ModuleLine" : 13,
+        "ModuleName" : "ram_256x128"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mux_top.vhd",
+      "InstLine" : 189,
+      "InstName" : "hdmi_rd_inst",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/hdmi_rd.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "hdmi_rd",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/hdmi_rd.vhd",
+        "InstLine" : 258,
+        "InstName" : "hdmi_buffer",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_top.vhd",
+        "ModuleLine" : 1837,
+        "ModuleName" : "fifo_256x512_16x8192",
+        "SubInsts" : [
+         {
+          "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_top.vhd",
+          "InstLine" : 1884,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_top.vhd",
+          "ModuleLine" : 1,
+          "ModuleName" : "\\~fifo.fifo_256x512_16x8192\\"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mux_top.vhd",
+      "InstLine" : 214,
+      "InstName" : "ddr_top_inst",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/ddr_top.vhd",
+      "ModuleLine" : 10,
+      "ModuleName" : "ddr_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/ddr_top.vhd",
+        "InstLine" : 95,
+        "InstName" : "mem_burst_0",
+        "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mem_burst.vhd",
+        "ModuleLine" : 7,
+        "ModuleName" : "mem_burst"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 159,
+    "InstName" : "u_ddr3",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/ddr3_memory_interface/DDR3MI_400M.v",
+    "ModuleLine" : 31657,
+    "ModuleName" : "DDR3MI",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/ddr3_memory_interface/DDR3MI_400M.v",
+      "InstLine" : 31742,
+      "InstName" : "gw3_top",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/ddr3_memory_interface/DDR3MI_400M.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~GW_DDR3_PHY_MC.DDR3MI"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 226,
+    "InstName" : "u_tmds_pll",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/gowin_pll/TMDS_PLL_30HZ.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "TMDS_PLL"
+   },
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 244,
+    "InstName" : "vga_timing_m0",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/vga_timing.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "vga_timing"
+   },
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 317,
+    "InstName" : "DVI_TX_Top_inst0",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+    "ModuleLine" : 1089,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+      "InstLine" : 1120,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+    "InstLine" : 338,
+    "InstName" : "DVI_TX_Top_inst1",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+    "ModuleLine" : 1089,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+      "InstLine" : 1120,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+  "InstLine" : 4966,
+  "InstName" : "Video_Frame_Buffer_Top",
+  "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+  "ModuleLine" : 4966,
+  "ModuleName" : "Video_Frame_Buffer_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+    "InstLine" : 5027,
+    "InstName" : "vfb_ddr3_wrapper_inst",
+    "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~vfb_ddr3_wrapper.Video_Frame_Buffer_Top"
+   }
+  ]
+ },
+ {
+  "InstFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_timing_check.v",
+  "InstLine" : 1,
+  "InstName" : "timing_check",
+  "ModuleFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_timing_check.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "timing_check"
+ }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="11" Alu="4" Lut="21" T_Register="7548(11)" T_Alu="409(4)" T_Lut="7957(21)" T_Bsram="64(0)">
+ <SubModule name="Gowin_PLL_m0"/>
+ <SubModule name="mux_top_inst" Register="30" Lut="60" T_Register="1744(30)" T_Alu="78(0)" T_Lut="4031(60)" T_Bsram="40(0)">
+  <SubModule name="sensor_top_inst" T_Register="706(0)" T_Alu="54(0)" T_Lut="1518(0)" T_Bsram="24(0)">
+   <SubModule name="i2c_config_top_inst" Register="33" Lut="64" T_Register="157(33)" T_Alu="15(0)" T_Lut="901(64)">
+    <SubModule name="i2c_config_m0" Register="13" Lut="25" T_Register="124(13)" T_Alu="15(0)" T_Lut="837(25)">
+     <SubModule name="i2c_master_top_m0" Register="17" Lut="664" T_Register="111(17)" T_Alu="15(0)" T_Lut="812(664)">
+      <SubModule name="byte_controller" Register="23" Lut="50" T_Register="94(23)" T_Alu="15(0)" T_Lut="148(50)">
+       <SubModule name="bit_controller" Register="71" Alu="15" Lut="98" T_Register="71(71)" T_Alu="15(15)" T_Lut="98(98)"/>
+      </SubModule>
+     </SubModule>
+    </SubModule>
+   </SubModule>
+   <SubModule name="ov5640_ctl_0" Register="67" Alu="4" Lut="130" T_Register="183(67)" T_Alu="13(4)" T_Lut="208(130)" T_Bsram="8(0)">
+    <SubModule name="cmos_8_16bit_inst" Register="28" Lut="3" T_Register="28(28)" T_Lut="3(3)"/>
+    <SubModule name="sensor_wr_buffer" Register="88" Alu="9" Lut="75" Bsram="8" T_Register="88(88)" T_Alu="9(9)" T_Lut="75(75)" T_Bsram="8(8)"/>
+   </SubModule>
+   <SubModule name="ov5640_ctl_1" Register="67" Alu="4" Lut="127" T_Register="183(67)" T_Alu="13(4)" T_Lut="205(127)" T_Bsram="8(0)">
+    <SubModule name="cmos_8_16bit_inst" Register="28" Lut="3" T_Register="28(28)" T_Lut="3(3)"/>
+    <SubModule name="sensor_wr_buffer" Register="88" Alu="9" Lut="75" Bsram="8" T_Register="88(88)" T_Alu="9(9)" T_Lut="75(75)" T_Bsram="8(8)"/>
+   </SubModule>
+   <SubModule name="ov5640_ctl_2" Register="67" Alu="4" Lut="126" T_Register="183(67)" T_Alu="13(4)" T_Lut="204(126)" T_Bsram="8(0)">
+    <SubModule name="cmos_8_16bit_inst" Register="28" Lut="3" T_Register="28(28)" T_Lut="3(3)"/>
+    <SubModule name="sensor_wr_buffer" Register="88" Alu="9" Lut="75" Bsram="8" T_Register="88(88)" T_Alu="9(9)" T_Lut="75(75)" T_Bsram="8(8)"/>
+   </SubModule>
+  </SubModule>
+  <SubModule name="algorithm_top_inst" Register="397" Alu="5" Lut="289" T_Register="397(397)" T_Alu="5(5)" T_Lut="289(289)" T_Bsram="8(0)">
+   <SubModule name="buffer_line" Bsram="8" T_Bsram="8(8)"/>
+  </SubModule>
+  <SubModule name="hdmi_rd_inst" Register="63" Alu="4" Lut="123" T_Register="167(63)" T_Alu="13(4)" T_Lut="395(123)" T_Bsram="8(0)">
+   <SubModule name="hdmi_buffer" Register="104" Alu="9" Lut="272" Bsram="8" T_Register="104(104)" T_Alu="9(9)" T_Lut="272(272)" T_Bsram="8(8)"/>
+  </SubModule>
+  <SubModule name="ddr_top_inst" Register="80" Alu="6" Lut="1517" T_Register="444(80)" T_Alu="6(6)" T_Lut="1769(1517)">
+   <SubModule name="mem_burst_0" Register="364" Lut="252" T_Register="364(364)" T_Lut="252(252)"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="u_ddr3" Register="5619" Alu="189" Lut="3388" Bsram="24" T_Register="5619(5619)" T_Alu="189(189)" T_Lut="3388(3388)" T_Bsram="24(24)"/>
+ <SubModule name="u_tmds_pll"/>
+ <SubModule name="vga_timing_m0" Register="28" Lut="59" T_Register="28(28)" T_Lut="59(59)"/>
+ <SubModule name="DVI_TX_Top_inst0" Register="73" Alu="69" Lut="229" T_Register="73(73)" T_Alu="69(69)" T_Lut="229(229)"/>
+ <SubModule name="DVI_TX_Top_inst1" Register="73" Alu="69" Lut="229" T_Register="73(73)" T_Alu="69(69)" T_Lut="229(229)"/>
+</Module>

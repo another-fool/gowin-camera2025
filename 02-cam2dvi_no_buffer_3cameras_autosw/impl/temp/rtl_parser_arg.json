@@ -1,0 +1,148 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/cmos_8_16bit.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/ddr3_memory_interface/DDR3MI_400M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/dvi_tx/DVI_TX_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/video_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/gowin_pll/TMDS_PLL_30HZ.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/gowin_pll/gowin_pll_400M.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_bit_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_byte_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/i2c_master_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/i2c_master/timescale.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/lut_ov5640_rgb565_1280_720.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/i2c_config_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/syn_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/testpattern.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/vga_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_frame_buffer/Video_Frame_Buffer_Top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/video_timing_check.v",
+   "Type" : "verilog"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_16x8192_256x512.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/fifo_top/fifo_top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/gowin_sdpb/ram_256X128.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/algorithm_top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/ddr_top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mem_burst.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mt_lib.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ddr3/mux_top.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/hdmi_rd.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/ov5640_ctl.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/src/new/sensor_top.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/githubproject/2025gowin/02-cam2dvi_no_buffer_3cameras_autosw/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

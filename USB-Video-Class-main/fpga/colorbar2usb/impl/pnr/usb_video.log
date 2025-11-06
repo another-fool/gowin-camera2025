@@ -1,0 +1,30 @@
+Reading netlist file: "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\gwsynthesis\usb_video.vg"
+Parsing netlist file "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\gwsynthesis\usb_video.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb_ref.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1118) : the clock "CLK_IN"'s frequency does not match u_pll_F/PLL_inst's param "FCLKIN = "50""
+WARN  (TA1118) : the clock "u_pll_F/PLL_inst/CLKOUT0.default_gen_clk"'s frequency does not match u_pll_B/PLL_inst's param "FCLKIN = "48""
+WARN  (TA1118) : the clock "u_pll_F/PLL_inst/CLKOUT0.default_gen_clk"'s frequency does not match u_pll_B/PLL_inst's param "FCLKIN = "48""
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'CLK_IN_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Generate file "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\pnr\usb_video.pin.html" completed
+Generate file "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\pnr\usb_video.rpt.html" completed
+Generate file "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\pnr\usb_video.rpt.txt" completed
+Generate file "C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\pnr\usb_video.tr.html" completed
+Thu Nov  6 15:54:50 2025
+

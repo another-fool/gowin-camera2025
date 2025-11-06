@@ -1,0 +1,59 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/fifo_sc_top/fifo_sc_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/gowin_pll_f/gowin_pll_f.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/mjpeg_encoder/mjpeg_encoder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/sync_fifo/sync_pkt_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb2_0_softphy/usb2_0_softphy.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb_device_controller/usb_device_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb_video/frame.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb_video/usb_descriptor_video.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "src/usb_video",
+  "src/usb_controller",
+  "src/usb20phy"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

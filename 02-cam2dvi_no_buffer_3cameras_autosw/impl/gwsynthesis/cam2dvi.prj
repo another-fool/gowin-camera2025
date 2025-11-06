@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AES"/>
+    <FileList>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\cmos_8_16bit.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\ddr3_memory_interface\DDR3MI_400M.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\dvi_tx\DVI_TX_Top.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\fifo_top\video_fifo.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\gowin_pll\TMDS_PLL_30HZ.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\gowin_pll\gowin_pll_400M.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\i2c_master\i2c_config.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\i2c_master\i2c_master_bit_ctrl.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\i2c_master\i2c_master_byte_ctrl.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\i2c_master\i2c_master_defines.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\i2c_master\i2c_master_top.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\i2c_master\timescale.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\lut_ov5640_rgb565_1280_720.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\i2c_config_top.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\syn_gen.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\testpattern.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\top.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\vga_timing.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\video_frame_buffer\Video_Frame_Buffer_Top.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\video_timing_check.v" type="verilog"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\fifo_top\fifo_16x8192_256x512.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\fifo_top\fifo_top.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\gowin_sdpb\ram_256X128.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\ddr3\ddr_top.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\ddr3\mem_burst.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\ddr3\mt_lib.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\ddr3\mux_top.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\hdmi_rd.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\ov5640_ctl.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\sensor_top.vhd" type="vhdl"/>
+        <File path="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\new\algorithm_top.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\impl\gwsynthesis\cam2dvi.vg"/>
+        <Option type="print_all_synthesis_warning" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 df:/gowin/TangMega-138KPro-example-main/TangMega-138KPro-example-main/cam2hdmi_alt/cam2dvi/src
+vi2c_config
+!s110 1757852676
+!i10b 1
+!s100 NSn:2H`Zd;H_Vl4d0k9]X0
+I5R4=]iGoI^5OQZTEod0>_1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1754460435
+8f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_config.v
+Ff:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_config.v
+L0 1
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1757852676.000000
+!s107 f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_config.v|
+!s90 -nologo|-work|work|f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_config.v|
+!i113 0
+Z4 o-nologo -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vi2c_master_top
+!s110 1757852681
+!i10b 1
+!s100 ?dI9QIifQeRifPSYA<ZJU2
+I;HJ]dS4CnGRJE8loL9TjA1
+R1
+R0
+R2
+8f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_master_top.v
+Ff:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_master_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1757852681.000000
+!s107 f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_master_top.v|
+!s90 -nologo|-work|work|f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\i2c_master\i2c_master_top.v|
+!i113 0
+R4
+R5
+vlut_ov5640_rgb565
+!s110 1757982994
+!i10b 1
+!s100 =n36KR5TXVA7NDHYj]QMm3
+IWR4JM@LYzCAWAS?DlAU7g3
+R1
+R0
+w1757682464
+8f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\lut_ov5640_rgb565_1280_720.v
+Ff:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\lut_ov5640_rgb565_1280_720.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1757982994.000000
+!s107 f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\lut_ov5640_rgb565_1280_720.v|
+!s90 -nologo|-work|work|f:\gowin\TangMega-138KPro-example-main\TangMega-138KPro-example-main\cam2hdmi_alt\cam2dvi\src\lut_ov5640_rgb565_1280_720.v|
+!i113 0
+R4
+R5

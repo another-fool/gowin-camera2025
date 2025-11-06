@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AES"/>
+    <FileList>
+        <File path="C:/Gowin/Gowin_V1.9.12_x64/IDE/ipcore/HYPERRAM/data/HPRAM_TOP.v" type="verilog"/>
+        <File path="C:/Gowin/Gowin_V1.9.12_x64/IDE/ipcore/HYPERRAM/data/hpram_code_5A.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="include_path" value="C:/Gowin/Gowin_V1.9.12_x64/IDE/ipcore/HYPERRAM/data"/>
+        <Option type="include_path" value="D:/FPGA/03-outsourced proj/05-panoramic_camera/panoramic_camera/cam2hdmi_alt/cam2dvi/src/hyperram_memory_interface/temp/HYPERRAM"/>
+        <Option type="output_file" value="hyperram_memory_interface.vg"/>
+        <Option type="output_template" value="hyperram_memory_interface_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>

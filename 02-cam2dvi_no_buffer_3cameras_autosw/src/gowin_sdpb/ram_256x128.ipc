@@ -1,0 +1,17 @@
+[General]
+ipc_version=4
+file=ram_256x128
+module=ram_256x128
+target_device=gw5ast138b-002
+type=ram_sdpb
+version=1.0
+
+[Config]
+BYTE_SIZE=0
+DEPTH_A=128
+DEPTH_B=128
+LANG=1
+READ=0
+RESET_MODE=true
+WIDTH_A=256
+WIDTH_B=256

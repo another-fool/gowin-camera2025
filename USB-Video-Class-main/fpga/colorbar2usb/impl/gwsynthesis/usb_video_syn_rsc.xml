@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="cam_usb_top" Register="367" Alu="7" Lut="472">
+    <SubModule name="u_pll_F"/>
+    <SubModule name="u_pll_B"/>
+    <SubModule name="u_mjpeg" Register="5220" Alu="3487" Lut="1439" MULTALU27X18="3" Bsram="12" Ssram="6"/>
+    <SubModule name="u_frame" Register="129" Alu="41" Lut="145"/>
+    <SubModule name="u_fifo_sc_top" Register="42" Alu="26" Lut="58" Bsram="2"/>
+    <SubModule name="u_usb_device_controller_top" Register="490" Alu="107" Lut="1424"/>
+    <SubModule name="u_usb_desc" Lut="160"/>
+    <SubModule name="u_USB_SoftPHY_Top" Register="430" Alu="14" Lut="989" Bsram="2"/>
+</Module>

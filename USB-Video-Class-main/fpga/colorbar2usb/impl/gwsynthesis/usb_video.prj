@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AC1/I0"/>
+    <FileList>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\TOP.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\fifo_sc_top\fifo_sc_top.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\gowin_pll_f\gowin_pll_f.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\mjpeg_encoder\mjpeg_encoder.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\sync_fifo\sync_pkt_fifo.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb2_0_softphy\usb2_0_softphy.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb_device_controller\usb_device_controller.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb_video\frame.v" type="verilog"/>
+        <File path="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb_video\usb_descriptor_video.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="include_path" value="C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb20phy"/>
+        <Option type="include_path" value="C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb_controller"/>
+        <Option type="include_path" value="C:/Users/anotherfool/Desktop/USB-Video-Class-main/fpga/colorbar2usb/src/usb_video"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\gwsynthesis\usb_video.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="cam_usb_top"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

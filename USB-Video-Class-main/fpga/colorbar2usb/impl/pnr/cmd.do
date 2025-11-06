@@ -1,0 +1,13 @@
+-d C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\gwsynthesis\usb_video.vg
+-p GW5AST-138B-FCPBGA676A-1
+-pn GW5AST-LV138FPG676AC1/I0
+-cst C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb_ref.cst
+-cfg C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\impl\pnr\device.cfg
+-sdc C:\Users\anotherfool\Desktop\USB-Video-Class-main\fpga\colorbar2usb\src\usb_ref.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

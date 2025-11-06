@@ -1,0 +1,19 @@
+-d D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\impl\gwsynthesis\cam2dvi.vg
+-p GW5AST-138B-FCPBGA676A-1
+-pn GW5AST-LV138FPG676AES
+-cst D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\138K_PRO_DOCK.cst
+-cfg D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\impl\pnr\device.cfg
+-sdc D:\FPGA\03-outsourced proj\05-panoramic_camera\cam2dvi_no_buffer_3camerasw\src\TMDS_30HZ.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0
